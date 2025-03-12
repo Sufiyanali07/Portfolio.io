@@ -1,6 +1,8 @@
 import React from "react";
 import video1 from "../assets/video1.mp4";
 import video2 from "../assets/video2.mp4";
+import resume1 from "../assets/sufiyanali-resume.pdf";
+import resume2 from "../assets/AWS cloud.pdf";
 const HeroSection = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
@@ -18,13 +20,18 @@ const HeroSection = () => {
       </p>
       <div className="flex justify-center my-10">
         <a
-          href="file:///C:/Users/admin/Downloads/sufiyanali-resume.pdf"
+          href={resume1}
+          download="Web resume"
           className="bg-gradient-to-r from-purple-950 to-purple-400 py-3 px-4 mx-3 rounded-md"
         >
           {" "}
           Web Resume
         </a>
-        <a href="#" className="py-3 px-4 mx-3 rounded-md border">
+        <a
+          href={resume2}
+          download="Cloud resume"
+          className="py-3 px-4 mx-3 rounded-md border"
+        >
           Cloud Resume
         </a>
       </div>
