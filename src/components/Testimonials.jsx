@@ -27,6 +27,7 @@ const Testimonials = () => {
           </div>
         ))}
       </div>
+      <hr className="p-5 mt-15 border-neutral-800" />
     </div>
   );
 };
