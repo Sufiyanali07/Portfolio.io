@@ -61,9 +61,9 @@ const Navbar = () => {
             </li>
 
             {showForm && (
-              <div className="fixed inset-0 flex items-center justify-center bg-opacity-50 pt-100">
-                <div className="bg-gradient-to-r from-purple-950 to-purple-800 p-8 rounded-2xl w-150 h-150 shadow-lg">
-                  <h2 className=" text-center text-3xl font-semibold mb-10  ">
+              <div className="fixed inset-0 flex items-center justify-center bg-opacity-50 h-screen">
+                <div className=" bg-white/10 backdrop-blur-lg border-b border-neutral-700/80 p-6 rounded-2xl w-150 h-150 shadow-lg">
+                  <h2 className="text-center text-3xl font-bold mb-10 mt-12 ">
                     Contact Us
                   </h2>
 
@@ -165,7 +165,7 @@ const Navbar = () => {
               </li>
               {showForm && (
                 <div className="fixed inset-0 flex items-center justify-center bg-opacity-50 pt-100">
-                  <div className="bg-gradient-to-r from-purple-950 to-purple-900 p-8 rounded-lg w-150 h-150 shadow-lg">
+                  <div className="bg-white/10 backdrop-blur-lg p-8 rounded-lg w-150 h-150 shadow-lg">
                     <h2 className=" text-center text-3xl font-semibold mb-10  ">
                       Contact Us
                     </h2>
