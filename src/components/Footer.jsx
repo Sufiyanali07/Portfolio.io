@@ -42,7 +42,7 @@ const Footer = () => {
 
           {/* Email Link */}
           <a
-            href="mailto:youremail@example.com"
+            href="mailto:sufiyanali0727@gmail.com"
             className="flex items-center hover:text-green-400 transition-colors"
           >
             <svg
