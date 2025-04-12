@@ -1,7 +1,7 @@
 import React from "react";
 import video1 from "../assets/video1.mp4";
 import video2 from "../assets/video2.mp4";
-import resume1 from "../assets/sufiyanali-resume.pdf";
+import resume1 from "../assets/Sayyed-Sufiyan_ali.resume.pdf";
 import resume2 from "../assets/AWS cloud.pdf";
 
 const Hero = () => {
