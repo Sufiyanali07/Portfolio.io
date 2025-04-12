@@ -113,24 +113,39 @@ export const Skills = [
 
 export const Projects = [
   {
+    title: "Mammtas Billing Dashboard",
+    details: [
+      "Developed a comprehensive billing dashboard for Mammtas using React.js and modern web technologies",
+      "Implemented real-time data visualization and reporting features for business analytics",
+      "Created a responsive interface with interactive charts and tables for data analysis",
+      "Integrated secure authentication and role-based access control",
+      "Built with a focus on performance optimization and user experience",
+    ],
+    githubLink: "https://github.com/Sufiyanali07/Mammtas-Billing-Dashboard",
+    netlifyLink: "https://mammtas-billing-dashboard.netlify.app",
+  },
+  {
     title: "Project TO-DO",
-
     details: [
       "The TO-DO project is a simple task management application that allows users to add, edit, and delete tasks efficiently. Built with React.js for a dynamic UI, it ensures a smooth user experience with real-time updates. This project demonstrates core web development skills, including state management and component-based desing",
     ],
+    githubLink: "https://github.com/Sufiyanali07/To-Do-App",
+    netlifyLink: "https://sufiyan-todo-app.netlify.app",
   },
   {
     title: "Project PORTFOLIO",
-
     details: [
       "A portfolio website built using React.js with a responsive and modern UI. It features reusable components, smooth navigation, and optimized performance. Styled with CSS/Tailwind, it ensures a clean and interactive user experience while following best practices in component-based architecture and states",
     ],
+    githubLink: "https://github.com/Sufiyanali07/Portfolio",
+    netlifyLink: "https://sufiyan-portfolio.netlify.app",
   },
   {
     title: "Project CALCULATOR ",
-
     details: [
       "A calculator application built using React.js with a clean and modern UI. It supports basic arithmetic operations like addition, subtraction, multiplication, and division. The project follows a modular component-based structure for better code organization. With smooth functionality.",
     ],
+    githubLink: "https://github.com/Sufiyanali07/Calculator",
+    netlifyLink: "https://calcifyio.netlify.app",
   },
 ];

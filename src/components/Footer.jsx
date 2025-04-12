@@ -1,21 +1,21 @@
 const Footer = () => {
   return (
-    <footer className=" text-white py-6">
-      <div className="container mx-auto text-center">
-        <p className="text-sm mb-4">
+    <footer className="bg-neutral-900 text-white py-8 sm:py-12">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <p className="text-sm sm:text-base text-center mb-6 sm:mb-8">
           &copy; 2025 Sufiyan ali. All rights reserved.
         </p>
-        <div className="flex justify-center space-x-6">
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6">
           {/* Instagram Link */}
           <a
-            href="https://www.instagram.com/yourinstagramhandle"
+            href="https://www.instagram.com/sufiyanali.__/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center hover:text-pink-500 transition-colors"
+            className="flex items-center hover:text-pink-500 transition-colors text-sm sm:text-base"
           >
             <svg
-              xmlns="https://www.instagram.com/sufiyanali.__/"
-              className="h-5 w-5 mr-2"
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-4 w-4 sm:h-5 sm:w-5 mr-2"
               viewBox="0 0 24 24"
               fill="currentColor"
             >
@@ -27,11 +27,11 @@ const Footer = () => {
           {/* Phone Link */}
           <a
             href="tel:+91 9309908454"
-            className="flex items-center hover:text-blue-400 transition-colors"
+            className="flex items-center hover:text-blue-400 transition-colors text-sm sm:text-base"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5 mr-2"
+              className="h-4 w-4 sm:h-5 sm:w-5 mr-2"
               viewBox="0 0 24 24"
               fill="currentColor"
             >
@@ -43,11 +43,11 @@ const Footer = () => {
           {/* Email Link */}
           <a
             href="mailto:sufiyanali0727@gmail.com"
-            className="flex items-center hover:text-green-400 transition-colors"
+            className="flex items-center hover:text-green-400 transition-colors text-sm sm:text-base"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5 mr-2"
+              className="h-4 w-4 sm:h-5 sm:w-5 mr-2"
               viewBox="0 0 24 24"
               fill="currentColor"
             >
