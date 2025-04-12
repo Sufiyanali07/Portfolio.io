@@ -137,7 +137,7 @@ export const Projects = [
     details: [
       "A portfolio website built using React.js with a responsive and modern UI. It features reusable components, smooth navigation, and optimized performance. Styled with CSS/Tailwind, it ensures a clean and interactive user experience while following best practices in component-based architecture and states",
     ],
-    githubLink: "https://github.com/Sufiyanali07/Portfolio",
+    githubLink: "https://github.com/Sufiyanali07/Portfolio.io",
   },
   {
     title: "Project CALCULATOR ",
